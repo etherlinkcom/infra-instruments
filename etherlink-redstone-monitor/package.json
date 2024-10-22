@@ -1,0 +1,16 @@
+{
+  "name": "etherlink-redstone-monitor",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.12"
+  },
+  "dependencies": {
+    "@redstone-finance/evm-connector": "^0.6.2",
+    "chainlink": "^0.8.2",
+    "dotenv": "^16.4.5",
+    "etherlink-infra-external-deps": "file:../etherlink-infra-external-deps",
+    "etherlink-infra-utils": "file:../etherlink-infra-utils",
+    "hardhat-project": "file:../etherlink_infra_utils",
+    "smartcontractkit": "^0.0.1-security"
+  }
+}
